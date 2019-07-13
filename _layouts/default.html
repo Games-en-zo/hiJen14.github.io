@@ -21,12 +21,12 @@
 			</div><!-- /.container -->
 			<footer>
 {{ site.time | date: "%Y" }}
-{{ site.time | date: "%Y" }} == 2019
+{% if site.time | date: "%Y" }} == 2019 %} Yes {% endif %}
 {{ site.time | date: "%Y" }} == “2019”
 {{ site.time | date: "%Y" }} == ‘2019’
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
-				{% if site.time | date: "%Y" == 2019}
+				{% if site.time | date: "%Y" == 2019 %}
               				<li>&copy; 2019 - Jennifer, HiJen14</li>
 				{% else %}
 					<li>&copy; 2019 - {{ site.time | date: "%Y" }} Jennifer, HiJen14</li>
