@@ -1,0 +1,3 @@
+# The .gitignore, for files not version controlled
+# Ignores Jekyll automatically generated _site directory
+_site/
