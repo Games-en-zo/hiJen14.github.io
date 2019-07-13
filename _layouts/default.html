@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to stylesheet(s) -->
+			<link rel="stylesheet" type="text/css" href="/css/hiJen14_Main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+              <li>&copy; 2019 - {{ page.date | date: "%Y"}} - Jennifer, HiJen14</li>
+				</ul>
+			</footer>
+		</body>
+	</html>
