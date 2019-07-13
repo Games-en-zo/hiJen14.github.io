@@ -22,7 +22,11 @@
 			<footer>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
-              <li>&copy; 2019 - {{ page.date | date: "%Y"}} - Jennifer, HiJen14</li>
+				{% if age.date | date: "%Y" ==  2019}
+              				<li>&copy; 2019 - Jennifer, HiJen14</li>
+				{% else %}
+					<li>&copy; 2019 - {{ page.date | date: "%Y"}} Jennifer, HiJen14</li>
+				{% endif %}
 				</ul>
 			</footer>
 		</body>
