@@ -1,3 +1,6 @@
-<b>How does this work</b>
+---
+layout: default
+title: Homepage
+---
 
 [about](https://hiJen14.github.io/about/)
