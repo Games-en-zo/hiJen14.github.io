@@ -13,6 +13,6 @@ title: Homepage
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-<hr size="5px">
+<hr>
 
 <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
