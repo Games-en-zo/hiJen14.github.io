@@ -8,6 +8,13 @@ body
   font-family: Helvetica, Verdana, Arial, serif;
   font-size: 13px;
   line-height: 1.5;
-  color: #757575;
-  background: #757575 url(../../images/body-bg.jpg) 0 0 repeat;
+  color: #f8f8f8;
+}
+
+header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Helvetica, Verdana, Arial, serif;
+  background: #787878 url(../../images/header-bg.jpg) 0 0 repeat-x;
+  border-bottom: solid 1px #275da1;
 }
