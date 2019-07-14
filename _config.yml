@@ -1,4 +1,5 @@
 # File for configuring Jekyll (MetaData)
 name: Jennifer, HiJen14
+title: Jennifer | HiJen14
 markdown: kramdown
 theme: jekyll-theme-architect
