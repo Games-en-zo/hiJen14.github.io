@@ -27,6 +27,18 @@ header
   background: #787878 url(../../Images/header-bg.jpg) 0 0 repeat;
 }
 
+header h1 
+{
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    font-size: 72px;
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: -1px;
+}
+
 footer 
 {
     padding-top: 20px;
