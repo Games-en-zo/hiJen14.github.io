@@ -5,3 +5,4 @@ title: About
 # About page
 
 __Lollig__
+[Home](/)
