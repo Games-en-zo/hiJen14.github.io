@@ -5,11 +5,18 @@
 
 body 
 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
   font-family: Helvetica, Verdana, Arial, serif;
   color: #f8f8f8;
 }
 
-header {
+header 
+{
+  padding-top: 0px;
+  padding-bottom: 40px;
+  border-bottom: solid 1px #275da1;
   font-family: Helvetica, Verdana, Arial, serif;
-  background: #787878 url(../../Images/header-bg.jpg) 0 0 repeat-x;
+  background: #787878 url(../../Images/header-bg.jpg) 0 0 repeat-x repeat-y;
 }
