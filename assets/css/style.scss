@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+//@import "{{ site.theme }}";
 
 body 
 {
@@ -69,4 +69,10 @@ table
 table, th, td 
 {
     border: 0px solid black;
+}
+
+.inner {
+    position: relative;
+    width: 940px;
+    margin-left: 12%;
 }
