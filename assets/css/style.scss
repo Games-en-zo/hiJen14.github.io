@@ -92,6 +92,33 @@ footer
     background: transparent url(../../images/sidebar-bg.jpg) 0 0 repeat-y;
 }
 
+#inner-header 
+{
+    position: relative;
+    width: 940px;
+    margin-left: 12%;
+}
+
+#inner-content 
+{
+    position: relative;
+    width: 940px;
+    margin-left: 12%;
+}
+
+#inner-content:after {
+  content: "";
+  display: block;
+  height: 50px; /* the footer's total height */
+}
+
+#inner-footer 
+{
+    position: relative;
+    width: 940px;
+    margin-left: 12%;
+}
+
 header h1 
 {
     width: 540px;
@@ -139,10 +166,4 @@ table
 table, th, td 
 {
     border: 0px solid black;
-}
-
-.inner {
-    position: relative;
-    width: 940px;
-    margin-left: 12%;
 }
