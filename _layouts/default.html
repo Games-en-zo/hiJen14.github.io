@@ -33,7 +33,7 @@
   </head>
   <body>
     <header>
-      <div class="inner">
+      <div id="inner-header">
 	Page Title: {{ page.title }} <br>
 	        Page URL test: {{ page.url }}
         <a href="{{ '/' | absolute_url }}">
@@ -45,7 +45,7 @@
     </header>
 
     <div id="content-wrapper">
-      <div class="inner">
+      <div id="inner-content">
         <section id="main-content">
           	{{ content }}
         </section>
@@ -55,7 +55,7 @@
       </div>
 	</div>
   <footer>   		
-	<div class="inner">
+	<div id="inner-footer"">
 		<p><a href="/">Home</a></p>
 		{% if site.time | date: "%Y" == 2019 %}
            		<p>&copy; 2019 - Jennifer, HiJen14</p>
