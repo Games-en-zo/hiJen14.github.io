@@ -56,17 +56,6 @@ footer
     background-color: #fff;
 }
 
-.sidebar 
-{
-    float: right;
-    width: 200px;
-    min-height: 504px;
-    padding-left: 20px;
-    font-size: 12px;
-    line-height: 1.3;
-    background: transparent url(../../images/sidebar-bg.jpg) 0 0 repeat-y;
-}
-
 #content-wrapper 
 {
     padding-top: 30px;
@@ -84,6 +73,16 @@ footer
     max-width: 100%;
 }
 
+#sidebar 
+{
+    float: right;
+    width: 200px;
+    min-height: 504px;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 1.3;
+    background: transparent url(../../images/sidebar-bg.jpg) 0 0 repeat-y;
+}
 
 header h1 
 {
