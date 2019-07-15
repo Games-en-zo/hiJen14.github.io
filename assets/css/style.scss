@@ -62,6 +62,7 @@ footer
     font-size: 13px;
     color: #000;
     background-color: #fff;
+    clear: both;
 }
 
 #content-wrapper 
@@ -106,16 +107,8 @@ footer
     margin-left: 12%;
 }
 
-#inner-content:after {
-  content: "";
-  display: block;
-  height: 50px; /* the footer's total height */
-}
-
 #inner-footer 
 {
-    position: relative;
-    width: 940px;
     margin-left: 12%;
 }
 
