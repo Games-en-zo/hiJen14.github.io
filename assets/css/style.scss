@@ -67,6 +67,24 @@ footer
     background: transparent url(../../images/sidebar-bg.jpg) 0 0 repeat-y;
 }
 
+#content-wrapper 
+{
+    padding-top: 30px;
+    border-top: solid 1px #fff;
+}
+
+#main-content 
+{
+    float: left;
+    width: 690px;
+}
+
+#main-content img 
+{
+    max-width: 100%;
+}
+
+
 header h1 
 {
     width: 540px;
