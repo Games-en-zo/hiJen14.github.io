@@ -1,2 +1,3 @@
 # Jennifer, HiJen14
-Bla bla
+
+This website is not finished!
